@@ -1,6 +1,6 @@
 This is a basic food searching app with React and React Hook where you can search food and get details of this food and others food releted to the food. This is a fully api base app. i get is from [Edamam](https://www.edamam.com/)
 
-## [Food Searching Ap](https://food-searching-app.netlify.app/)
+## [Food Searching App](https://food-searching-app.netlify.app/)
 
 ## Features
  - search food with name
