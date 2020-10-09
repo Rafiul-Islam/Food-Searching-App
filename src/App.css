@@ -127,7 +127,7 @@ h1 {
   color: #40b48e;
 }
 
-.recipe button {
+.recipe-button {
   font-size: 2rem;
   text-transform: uppercase;
   color: #fff;
@@ -135,6 +135,22 @@ h1 {
   border: none;
   border-radius: 0.5rem;
   height: 3rem;
+}
+
+.recipe-url-button {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #40b48e;
+  border: none;
+  border-radius: 0.5rem;
+  height: 3rem;
+  margin-bottom: 5px;
+}
+
+.recipe-url-button:hover {
+  color: #fff;
+  background-color: crimson;
 }
 
 .ingredient-list {

@@ -1,5 +1,7 @@
 import React, {useState} from 'react';
 import RecipeDetails from "./RecipeDetails";
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css'
+
 
 const MyComponent = ({recipe}) => {
     const [show, setShow] = useState(false);
@@ -9,10 +11,8 @@ const MyComponent = ({recipe}) => {
         <div className="recipe">
             <h2>{label}</h2>
             <img src={image} alt={label}/>
-            <a href={url} target="_blank" rel="noopener noreferrer">
-                URL
-            </a>
-            <button onClick={() => setShow(!show)}>Ingredients</button>
+            <button className='recipe-url-button' onClick={() => window.open(`${url}`, '_blank')}>URL</button>
+            <button className='recipe-button' onClick={() => setShow(!show)}>Ingredients</button>
             {show && <RecipeDetails ingredients={ingredients}/>}
         </div>
     );
