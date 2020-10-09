@@ -1,11 +1,11 @@
-import React, {useState} from 'react';
+import React from "react";
 
-const MyComponent = () => {
+const Alert = ({ alert }) => {
     return (
-        <div>
-
+        <div className="alert">
+            <h3>{alert}</h3>
         </div>
     );
 };
 
-export default MyComponent;
+export default Alert;
