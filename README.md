@@ -9,6 +9,9 @@ This is a basic food searching app with React and React Hook where you can searc
  - Link of every food item
  
 ## Technology
+ - HTML
+ - CSS
+  -Bootsrap
  - React
  - React Hook
  
